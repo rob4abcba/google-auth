@@ -3,6 +3,7 @@ const express = require("express");
 const cors = require("cors");
 const passport = require("passport");
 const cookieSession = require("cookie-session"); // This module stores the session data on the client within a cookie
+const passportSetup = require("./passport");
 const app = express();
 
 app.use(
